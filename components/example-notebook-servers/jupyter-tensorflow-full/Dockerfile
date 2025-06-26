@@ -2,7 +2,7 @@
 # NOTE: Use the Makefiles to build this image correctly.
 #
 
-ARG BASE_IMG=<jupyter-tensorflow>
+ARG BASE_IMG=ghcr.io/kubeflow/kubeflow/notebook-servers/jupyter-tensorflow-full:sha-4a26c7b5e9575410613faf7df6735aa1883a2d24
 FROM $BASE_IMG
 
 # install - conda packages
